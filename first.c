@@ -7,4 +7,5 @@ void main()
     printf("Arnav says Hello");
     printf("this is ijaz"); 
     printf("456\n");
+    printf("456\n");
 }

@@ -6,5 +6,5 @@ void main()
     printf("hello this is pushkar");
     printf("Arnav says Hello");
     printf("this is ijaz"); 
-    printf("456");
-    printf("second commit\n");
+    printf("456\n");
+}

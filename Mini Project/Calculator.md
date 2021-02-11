@@ -1,6 +1,6 @@
 ﻿# Calculator
 
-A secure, Convenient and portable Non-Scientific Calculator.   
+A secure, Convenient and portable Non Programmable-Scientific Calculator.   
 
 
 # High Level

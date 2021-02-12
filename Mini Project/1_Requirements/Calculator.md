@@ -7,7 +7,7 @@ A secure, Convenient and portable Non Programmable-Scientific Calculator.
 
  - Password Protection
 
-## Low Level
+# Low Level
 
  - 4-digit PIN protection
  - Only number can be taken as an input for PIN.

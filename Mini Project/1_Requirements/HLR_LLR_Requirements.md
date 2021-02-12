@@ -9,6 +9,7 @@ A secure, Convenient and portable Non Programmable-Scientific Calculator.
  - Distance Conversion
  -Arithematic operations
 - Radicand operations
+-Automatic closing of paranthesis
 
 
 
@@ -22,6 +23,9 @@ A secure, Convenient and portable Non Programmable-Scientific Calculator.
 - is calculator able to do large value operations.
 - checking invalid inputs.
 - checking negetive number square root operation.
+-Check for the type of paranthesis and even number of same type paranthesis
+-Evaluate with respect to BODMAS rule
+
 
 
 

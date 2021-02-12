@@ -25,9 +25,11 @@ A secure, Convenient and portable Non Programmable-Scientific Calculator.
 # HIGH LEVEL
 
 - Arithematic operations
+- Radicand operations
 
 # LOW LEVEL
 
 - chech whither to print decimal place values or not.
 - is calculator able to do large value operations.
 - checking invalid inputs.
+- checking negetive number square root operation.

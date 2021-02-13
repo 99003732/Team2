@@ -43,5 +43,6 @@ int multiply(int operand1, int operand2);
 * @note returns 0 for divide by 0 error
 */
 int divide(int operand1, int operand2);
+int check_pin(int pin);
 
 #endif  /* #define __CALCULATOR_OPERATIONS_H__ */

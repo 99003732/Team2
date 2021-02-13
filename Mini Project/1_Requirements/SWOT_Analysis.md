@@ -1,7 +1,7 @@
 ﻿
 |Strengths|  Weakness|
 |--|--|
-|- Faster Input Speed|-Less No. of Functions 
+|- Geometrical Calculations|-Less No. of Functions 
    |-User Friendly|-Average Processor|
    |-Portable and compact
    Secure||

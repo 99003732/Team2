@@ -9,7 +9,8 @@ A secure, Convenient and portable Non Programmable-Scientific Calculator.
  - Distance Conversion
  -Arithematic operations
 - Radicand operations
-- Automatic closing of paranthesis
+- Area operation for Circle and Square dimensioned inputs
+- Perimeter operation for Square and Rectangle dimensioned inputs.
 
 
 
@@ -23,8 +24,10 @@ A secure, Convenient and portable Non Programmable-Scientific Calculator.
 - is calculator able to do large value operations.
 - checking invalid inputs.
 - checking negetive number square root operation.
-- Check for the type of paranthesis and even number of same type paranthesis
-- Evaluate with respect to BODMAS rule
+- Check for 0 valued dimension attribute
+- Check for negative valued dimension attribute
+- Check for any input other than digit
+- Check for any input that chooses the parameter except Circle, Square and Rectangle.
 
 
 

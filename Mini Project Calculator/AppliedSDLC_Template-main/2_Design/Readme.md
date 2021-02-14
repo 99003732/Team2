@@ -8,6 +8,7 @@ HLR Sequence diagram[HighLevelStructuralDiagram](https://github.com/99003732/Tea
 HLR Componenet diagram[HighLevelBehaviouralDiagram](https://github.com/99003732/Team2/blob/master/Mini%20Project/2_Architecture/Behaviour%20Diagram/HLR/HLR_ComponentDiagram.PNG)
 
 #Structural Diagrams
+![HLR PIN](https://user-images.githubusercontent.com/78853960/107882453-6b47eb00-6f0f-11eb-9bd2-6890a3b29f0b.png)
 
 HLR [HighLevelStructuralDiagram](https://github.com/99003732/Team2/blob/master/Mini%20Project/2_Architecture/Structural%20Diagram/HLR/HLR%20PIN.png)
 HLR State diagram [HighLevelStructuralDiagram] (https://github.com/99003732/Team2/blob/master/Mini%20Project/2_Architecture/Structural%20Diagram/HLR/state.PNG)

@@ -21,7 +21,6 @@ Our calculator has a flip model making it more compact and handy. It has a PIN s
 |**Opportunities**|**Threats**  |
 |-Good Aesthetics|-No PIN Recovery|
 | -Convenience |  -Flip Design May be a flop|
-|
 
 # 4W&#39;s and 1&#39;H
 

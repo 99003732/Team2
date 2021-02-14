@@ -5,7 +5,7 @@
 | **Test ID** | **Description**                                              | **Exp IN** | **Exp OUT** | **Actual Out** |**Type Of Test**  |    
 |-------------|--------------------------------------------------------------|------------|-------------|----------------|------------------|
 |  H_01       |Distance conversion- Converting unit distances from one input to the other|  10metre | 32.8 | 32.8 |Requirement based |
-|  H_02       |Password Protection for Calculator----------------------------| correct pin|regular operation of calculator|----------------|Scenario based    |
+|  H_02       |Password Protection for Calculator| correct pin|regular operation of calculator|----------------|Scenario based    |
 |  H_03       |--------------------------------------------------------------|  ------------|-------------|----------------|Boundary based    |
 
 ## Table no: Low level test plan

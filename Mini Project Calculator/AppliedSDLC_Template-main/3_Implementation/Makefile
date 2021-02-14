@@ -6,7 +6,13 @@ BUILD = build
 
 # All source code files
 SRC = project_main.c\
+<<<<<<< Updated upstream
 src/calculator_operations.c
+=======
+src/calculator_operations.c\
+src/calculator_conversions.c\
+src/calculator_pin.c
+>>>>>>> Stashed changes
 
 # All test source files
 TEST_SRC = src/calculator_operations.c\

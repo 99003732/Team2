@@ -24,3 +24,4 @@ LLR Component diagram [LowLevelStructureDiagram](https://github.com/99003732/Tea
 LLR Class diagram[LowLevelStructureDiagram](https://github.com/99003732/Team2/blob/master/Mini%20Project/2_Architecture/Structural%20Diagram/LLR/LLR%20PIN%20Class.png)
 LLR Object diagram[LowLevelStructureDiagram](https://github.com/99003732/Team2/blob/master/Mini%20Project/2_Architecture/Structural%20Diagram/LLR/LLR%20obj.png)
 LLR Package diagram[LowLevelStructureDiagram](https://github.com/99003732/Team2/blob/master/Mini%20Project/2_Architecture/Structural%20Diagram/LLR/llr%20package%20diagram.PNG)
+Low level Requiremnts structure for PIN features in class format![LLR PIN Class](https://user-images.githubusercontent.com/78853960/107882542-ec06e700-6f0f-11eb-90ff-98996daf37e8.png)

@@ -12,6 +12,6 @@
 
 | **Test ID** | **Description**                                              | **Exp IN** | **Exp OUT** | **Actual Out** |**Type Of Test**  |    
 |-------------|--------------------------------------------------------------|------------|-------------|----------------|------------------|
-|  L_01       |Metre to Inch Conversion | 1 | 39.3701 | 39.3701 | Requirement based |
-|  L_02       |Metre to Foot Conversion | 20 | 65.6168 | 65.6168 |Requirement based |
+|  L_01       |Metre to Inch Conversion | 1 metre | 39.3701 inch | 39.3701 | Requirement based |
+|  L_02       |Metre to Foot Conversion | 20 | 65.6168 metre | 65.6168 foot |Requirement based |
 |  L_03       |--------------------------------------------------------------|  ------------|-------------|----------------|Boundary based    |

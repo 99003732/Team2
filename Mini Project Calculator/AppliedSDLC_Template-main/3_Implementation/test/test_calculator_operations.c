@@ -1,5 +1,6 @@
 #include "unity.h"
 #include <calculator_operations.h>
+#include <calculator_conversions.h>
 
 /* Modify these two lines according to the project */
 #include <calculator_operations.h>
@@ -11,6 +12,7 @@ void test_add_testcase2(void);
 void test_subtract(void);
 void test_multiply(void);
 void test_divide(void);
+void test_conversion(void);
 
 /* Required by the unity test framework */
 void setUp(){}
@@ -29,6 +31,7 @@ int main()
   RUN_TEST(test_subtract);
   RUN_TEST(test_multiply);
   RUN_TEST(test_divide);
+  RUN_TEST(test_conversion);
 
   /* Close the Unity Test Framework */
   return UNITY_END();
@@ -63,4 +66,7 @@ void test_divide(void) {
   
   /* Dummy fail*/
   TEST_ASSERT_EQUAL(3, divide(2, 2));
+}
+void test_convert(void) {
+  TEST_ASSERT_EQUAL(39.3701, convert(1,1));
 }

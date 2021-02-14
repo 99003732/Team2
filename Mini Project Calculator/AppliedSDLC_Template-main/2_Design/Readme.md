@@ -8,7 +8,9 @@ HLR Sequence diagram[HighLevelStructuralDiagram](https://github.com/99003732/Tea
 HLR Componenet diagram[HighLevelBehaviouralDiagram](https://github.com/99003732/Team2/blob/master/Mini%20Project/2_Architecture/Behaviour%20Diagram/HLR/HLR_ComponentDiagram.PNG)
 
 #Structural Diagrams
-Deployment diagram for PIN features
+
+-Deployment diagram for PIN features
+
 ![HLR PIN](https://user-images.githubusercontent.com/78853960/107882453-6b47eb00-6f0f-11eb-9bd2-6890a3b29f0b.png)
 
 HLR [HighLevelStructuralDiagram](https://github.com/99003732/Team2/blob/master/Mini%20Project/2_Architecture/Structural%20Diagram/HLR/HLR%20PIN.png)
@@ -30,5 +32,7 @@ LLR Package diagram[LowLevelStructureDiagram](https://github.com/99003732/Team2/
 
 -Low level Requiremnts structure for PIN features in class format
 ![LLR PIN Class](https://user-images.githubusercontent.com/78853960/107882542-ec06e700-6f0f-11eb-90ff-98996daf37e8.png)
+
+
 -Low Level Requiremnts Activity diagram for PIN features
 ![PIN LLR BEHAVIOURAL (1)](https://user-images.githubusercontent.com/78853960/107883313-47d36f00-6f14-11eb-92aa-0f4c6721918e.png)

@@ -1,5 +1,6 @@
 #include <calculator_operations.h>
 #include <calculator_conversions.h>
+#include <calculator_pin.h>
 
 /* Status of the operation requested */
 #define VALID   (1)
@@ -25,13 +26,23 @@ int valid_operation(int operation);
 
 /* Start of the application */
 int main(int argc, char *argv[])
-{
+{int last_pin;//Input for previous pin
+  int entered_pin;//Input for user entered pin
+  last_pin=get_pin();//checking with the pin saved on file pin.txt
+printf("Enter PIN: ");
+scanf("%d",&entered_pin);
+    if(correct_pin(entered_pin)==1)
+    {
+    
     printf("\n****Calculator****\n");
     while(1)
     {
         calculator_menu();
     }
 }
+else
+    {printf("Wrong PIN \n");
+    }}
 
 void calculator_menu(void)
 {

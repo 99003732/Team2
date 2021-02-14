@@ -48,12 +48,11 @@ By compensating the price of irrelevant features/functions for the convenience o
 # Detail requirements
 ## High Level Requirements: 
 -- ID | Description | Status | Owner (Implemented/Future)|
-|--|--|
-99003729 | Distance Conversions | Done | Pushkar Antony|
+------|-------------|--------|----------------------------
+99003729 | Distance Conversions | Done | Pushkar Antony
 
 ##  Low level Requirements: 
 -- ID | Description | Status | Owner (Implemented/Future)|
-|--|--|
-99003729 | Metre to Inch conversion | Done | Pushkar Antony|
-|--|--|
-99003729 | Metre to Feet conversion | Done | Pushkar Antony|
+------|-------------|--------|----------------------------
+99003729 | Metre to Inch conversion | Done | Pushkar Antony
+99003729 | Metre to Feet conversion | Done | Pushkar Antony

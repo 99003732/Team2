@@ -13,6 +13,8 @@ Deployment diagram for PIN features
 
 HLR [HighLevelStructuralDiagram](https://github.com/99003732/Team2/blob/master/Mini%20Project/2_Architecture/Structural%20Diagram/HLR/HLR%20PIN.png)
 HLR State diagram [HighLevelStructuralDiagram] (https://github.com/99003732/Team2/blob/master/Mini%20Project/2_Architecture/Structural%20Diagram/HLR/state.PNG)
+![state](https://user-images.githubusercontent.com/78853960/107883401-cb8d5b80-6f14-11eb-831e-b5964bcc8879.png)
+
 
 ## Low Level Design 
 

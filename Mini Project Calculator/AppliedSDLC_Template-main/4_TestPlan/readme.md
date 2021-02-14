@@ -5,7 +5,7 @@
 | **Test ID** | **Description**                                              | **Exp IN** | **Exp OUT** | **Actual Out** |**Type Of Test**  |    
 |-------------|--------------------------------------------------------------|------------|-------------|----------------|------------------|
 |  H_01       |Distance conversion- Converting unit distances from one input to the other|  10metre | 32.8 | 32.8 |Requirement based |
-|  H_02       |Password Protection for Calculator| correct pin|regular operation of calculator|----------------|Scenario based    |
+|  H_02       |Password Protection for Calculator| correct pin|regular operation of calculator|Operation continued further|Scenario based    |
 |  H_03       |--------------------------------------------------------------|  ------------|-------------|----------------|Boundary based    |
 
 ## Table no: Low level test plan
@@ -15,4 +15,4 @@
 |  L_01       |Metre to Inch Conversion | 1 metre | 39.3701 inch | 39.3701 inch | Requirement based |
 |  L_02       |Metre to Foot Conversion | 20 metre | 65.6168 foot | 65.6168 foot |Requirement based |
 |  L_03       |Writing the PIN to a local tect file so it is saved even after exiting program|  PIN|PIN saved to permanent memory|PIN saved to permanent memory|scenario based based    |
-|  L-04       |Checking of PIN with saved pin | correct pin | acceptance | acceptance of pin|scenario based |
+|  L-04       |Checking of PIN with saved pin | correct pin | reading from text file and acceptance | acceptance of pin|scenario based |

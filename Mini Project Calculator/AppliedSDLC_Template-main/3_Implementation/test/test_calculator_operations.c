@@ -69,4 +69,9 @@ void test_divide(void) {
 }
 void test_convert(void) {
   TEST_ASSERT_EQUAL(39.3701, convert(1,1));
+
+  TEST_ASSERT_EQUAL(147.638,convert(2,45));
+
+  /* Dummy fail */
+  TEST_ASSERT_EQUAL(0,convert(5,466));
 }

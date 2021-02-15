@@ -4,8 +4,8 @@
 *
 */
 
-#ifndef __AREAPERIMETER_H__
-#define __AREAPERIMETER_H__
+#ifndef __CALCULATOR_AREAPERIMETER_H__
+#define __CALCULATOR_AREAPERIMETER_H__
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -18,6 +18,7 @@ double Area_Square(double side);
 double Perimeter_Square(double side);
 double Perimeter_Rectangle(double l,double w);
 void areaperimeter(void);
-#endif  /* #define __CALCULATOR_OPERATIONS_H__ */
+
+#endif  /* #define __CALCULATOR_AREAPERIMETER_H__ */
 
 

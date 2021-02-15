@@ -1,5 +1,5 @@
 /** 
-* @file calculator_operations.h
+ @file calculator_operations.h
 * Calculator application with 4 mathematical operations
 *
 */
@@ -8,7 +8,7 @@
 
 #include <stdio.h>
 #include <stdlib.h>
-#include <stdio.h>
+//#include <stdio.h>
 
 /**
 *  adds the operand1 and operand2 and returns the result
@@ -16,7 +16,7 @@
 * @param[in] operand2 
 * @return Result of operand1 + operand2
 */
-int add(int operand1, int operand2);
+int add(int no_of_op);
 
 /**
 *  subtracts the operand1, operand2 and returns the result

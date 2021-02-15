@@ -33,7 +33,11 @@ PS No. |  Name   |    Features    | Issuess Raised |Issues Resolved|No Test Case
 ## Learning Resources
 1. [markdownCheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 2. [markdownBasics](https://guides.github.com/features/mastering-markdown/)
-﻿# EPIC STATEMENT
+3. [git inspector](https://github.com/ejwa/gitinspector.git)
+4. [github workflow](https://docs.github.com/en/actions/learn-github-action)
+
+
+## EPIC STATEMENT
 
 |Funnel Entry  | 15/02/2021  |
 |--|--|
@@ -47,8 +51,4 @@ PS No. |  Name   |    Features    | Issuess Raised |Issues Resolved|No Test Case
 
 
 
-
-
-3. [git inspector](https://github.com/ejwa/gitinspector.git)
-4. [github workflow](https://docs.github.com/en/actions/learn-github-action)
 

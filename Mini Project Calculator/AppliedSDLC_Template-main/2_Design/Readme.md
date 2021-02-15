@@ -30,4 +30,5 @@ LLR Object diagram[LowLevelStructureDiagram](https://github.com/99003732/Team2/b
 LLR Package diagram Distance Conversion[LowLevelStructureDiagram]![llr package](https://user-images.githubusercontent.com/78848560/107903219-a9c0c280-6f6e-11eb-94a0-f0c88978b435.PNG)
 LLR Sequence Diagram Area and Perimeter[LowLevelBehaviouralDiagram]![SEQUENCE DIAGRAm_LLR](https://user-images.githubusercontent.com/78848729/107907517-efcf5380-6f79-11eb-964f-741f59147ad0.PNG)
 LLR Component Diagram Area and Perimeter[LowLevelBehaviouralDiagram]![COMPONENT_DIAGRAM_LLR](https://user-images.githubusercontent.com/78848729/107907845-bea35300-6f7a-11eb-9553-f84d506c1abc.PNG)
+LLR Timing Diagram Calculator operations[LowLevelBehaviouralDiagram]![TIMING_DIAGRAM_LLR]![timing diagram](https://user-images.githubusercontent.com/78848803/107909031-5dc94a00-6f7d-11eb-9d8d-018c753f85aa.png)
 

@@ -52,6 +52,7 @@ By compensating the price of irrelevant features/functions for the convenience o
 99003729 | Distance Conversions | Done | Pushkar Antony
 99003730 |PIN Protection | Done | Arnav Kandpal
 99003732 |Area and Perimeter Calculation | Done | Anushka Shivalli
+99003728 | Arithematic Operations | Done | Mohammed Ijaz
 ##  Low level Requirements: 
 -- ID | Description | Status | Owner |
 ------|-------------|--------|--------
@@ -61,5 +62,9 @@ By compensating the price of irrelevant features/functions for the convenience o
 99003730 | Reading Pin from saved file and validationg it with input pin| Done | Arnav Kandpal
 99003732 | Computation of area of circle | Done | Anushka Shivalli
 99003732 | Computation of area of square | Done | Anushka Shivalli
-99003792 | Computation of perimeter of square | Done | Anushka Shivalli
+99003732 | Computation of perimeter of square | Done | Anushka Shivalli
 99003732 | Computation of perimeter of rectangle | Done | Anushka Shivalli
+99003728 | Addition of two numbers | Done | Mohammed Ijaz
+99003728 | Subtraction of two numbers | Done | Mohammed Ijaz
+99003728 | Multiplication of two numbers | Done | Mohammed Ijaz
+99003728 | Division of two numbers | Done | Mohammed Ijaz

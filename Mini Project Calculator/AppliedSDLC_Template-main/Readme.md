@@ -19,13 +19,13 @@ Folder             | Description
 
 PS No. |  Name   |    Features    | Issuess Raised |Issues Resolved|No Test Cases|Test Case Pass
 -------|---------|----------------|----------------|---------------|-------------|--------------
-99003729 | Pushkar Antony  | Distance Conversion, Metre to inches and Metre to feet   | X No     | X No   |X No   |X No     
+99003729 | Pushkar Antony  | Distance Conversion, Metre to inches and Metre to feet   | 2 | 2 | 3 |3     
 `DEF` | 12345678  | Feature C, D etc    | X No     | X No   |X No   |X No     
 
 ## Challenges Faced and How Was It Overcome
 
-1. Using Make files- By Trial and error methods. 
-2. BCD
+1. Issue in Making files- Solved by changing the path directory as I had made a earlier mistake while installing them. 
+2. Making the header and .c files had some errors- Solved by trial and error methods and searching the net.
 3. ...
 4. ...
 

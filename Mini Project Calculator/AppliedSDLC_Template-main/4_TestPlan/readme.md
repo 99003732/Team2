@@ -8,6 +8,7 @@
 |  H_02       |Password Protection for Calculator| correct pin|regular operation of calculator|Operation continued further|Scenario based    |
 |  H_03       |Area and Perimeter computation | 1 |choose shape| choose shape |Requirement based   |
 |  H_04       |Area and Perimeter computation | 2 | choose shape|choose shape|Requirement based  |
+|  H_05       |Aritmatic operations | 2 3 | 5 | 5 | Requirement based  |
 
 
 ## Table no: Low level test plan
@@ -22,3 +23,7 @@
 |  L_06       |Area computation for square|Side value in cm = 1|1|1|Initial boundary based    |
 |  L_07       |Perimeter computation for Square|Radius value in cm = 1|4|4|Initial boundary based    |
 |  L_08       |Perimeter computation for Rectangle|length value in cm = 1 ; width value in cm =1|4|4|Initial boundary based    |
+|  L_09       | Sum of two numbers | 2 3 | 5 | 5 | Requirement based  |
+|  L_09       | difference of two numbers | 2 3 | -1 | -1 | Requirement based  |
+|  L_09       | Sum of two numbers | 2 3 | 6 | 6 | Requirement based  |
+|  L_09       | Sum of two numbers | 6 3 | 2 | 2 | Requirement based  |

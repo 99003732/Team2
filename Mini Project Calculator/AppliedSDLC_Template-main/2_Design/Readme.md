@@ -28,3 +28,5 @@ LLR Component diagram [LowLevelStructureDiagram](https://github.com/99003732/Tea
 LLR Class diagram PIN[LowLevelStructureDiagram]![llr class](https://user-images.githubusercontent.com/78853960/107882542-ec06e700-6f0f-11eb-90ff-98996daf37e8.png)
 LLR Object diagram[LowLevelStructureDiagram](https://github.com/99003732/Team2/blob/master/Mini%20Project/2_Architecture/Structural%20Diagram/LLR/LLR%20obj.png)
 LLR Package diagram Distance Conversion[LowLevelStructureDiagram]![llr package](https://user-images.githubusercontent.com/78848560/107903219-a9c0c280-6f6e-11eb-94a0-f0c88978b435.PNG)
+LLR Sequence diagram Area and Perimeter[HighLevelBehaviouralDiagram]![SEQUENCE DIAGRAm_LLR](https://user-images.githubusercontent.com/78848729/107907517-efcf5380-6f79-11eb-964f-741f59147ad0.PNG)
+

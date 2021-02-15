@@ -59,4 +59,7 @@ By compensating the price of irrelevant features/functions for the convenience o
 99003729 | Metre to Feet conversion | Done | Pushkar Antony
 99003730 | Writing New PIN to permanent memory into a text file | Done | Arnav Kandpal
 99003730 | Reading Pin from saved file and validationg it with input pin| Done | Arnav Kandpal
-99003732 | Calculating area for circle and square and computation of perimeter for square and rectangle | Done | Anushka Shivalli
+99003732 | Computation of area of circle | Done | Anushka Shivalli
+99003732 | Computation of area of square | Done | Anushka Shivalli
+99003792 | Computation of perimeter of square | Done | Anushka Shivalli
+99003732 | Computation of perimeter of rectangle | Done | Anushka Shivalli

@@ -18,7 +18,7 @@
 |  L_02       |Metre to Foot Conversion | 20 metre | 65.6168 foot | 65.6168 foot |Requirement based |
 |  L_03       |Writing the PIN to a local tect file so it is saved even after exiting program|  PIN|PIN saved to permanent memory|PIN saved to permanent memory|scenario based based    |
 |  L-04       |Checking of PIN with saved pin | correct pin | reading from text file and acceptance | acceptance of pin|scenario based |
-|  L_04       |Area computation for Circle|Radius value in cm = 1|3.1428|3.1428|Initial boundary based|
-|  L_05       |Area computation for square|Side value in cm = 1|1|1|Initial boundary based    |
-|  L_06       |Perimeter computation for Square|Radius value in cm = 1|4|4|Initial boundary based    |
+|  L_05       |Area computation for Circle|Radius value in cm = 1|3.1428|3.1428|Initial boundary based|
+|  L_06       |Area computation for square|Side value in cm = 1|1|1|Initial boundary based    |
+|  L_07       |Perimeter computation for Square|Radius value in cm = 1|4|4|Initial boundary based    |
 |  L_08       |Perimeter computation for Rectangle|Radius value in cm = 1|4|4|Initial boundary based    |

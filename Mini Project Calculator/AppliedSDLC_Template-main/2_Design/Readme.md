@@ -6,7 +6,10 @@
 
 HLR Sequence diagram Distance Conversion[HighLevelStructuralDiagram]![hlr sequence](https://user-images.githubusercontent.com/78848560/107903132-66feea80-6f6e-11eb-9812-bb5eda44257a.PNG)
 
+
+
 #COMPONENT DIAGRAM 
+
 HLR Componenet diagram[HighLevelBehaviouralDiagram]![Component_Diagram_HLR](https://user-images.githubusercontent.com/78848729/107907163-edb8c500-6f78-11eb-9f07-2fc96bc2f6e1.PNG)
 
 #Structural Diagrams

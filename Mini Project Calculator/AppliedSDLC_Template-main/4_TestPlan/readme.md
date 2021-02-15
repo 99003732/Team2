@@ -6,7 +6,7 @@
 |-------------|--------------------------------------------------------------|------------|-------------|----------------|------------------|
 |  H_01       |Distance conversion- Converting unit distances from one input to the other|  10metre | 32.8 | 32.8 |Requirement based |
 |  H_02       |Password Protection for Calculator| correct pin|regular operation of calculator|Operation continued further|Scenario based    |
-|  H_03       |Area and Perimeter computation | 1 | |choose shape| choose shape |Requirement based   |
+|  H_03       |Area and Perimeter computation | 1 |choose shape| choose shape |Requirement based   |
 |  H_04       |Area and Perimeter computation | 2 | choose shape|choose shape|Requirement based  |
 
 

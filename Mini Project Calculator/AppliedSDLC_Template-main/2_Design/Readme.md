@@ -10,7 +10,7 @@ HLR Sequence diagram Distance Conversion[HighLevelStructuralDiagram]![hlr sequen
 
 #COMPONENT DIAGRAM 
 
-HLR Componenet diagram[HighLevelBehaviouralDiagram]![Component_Diagram_HLR](https://user-images.githubusercontent.com/78848729/107907163-edb8c500-6f78-11eb-9f07-2fc96bc2f6e1.PNG)
+HLR Componenet diagram for Area and Perimeter operation[HighLevelBehaviouralDiagram]![Component_Diagram_HLR](https://user-images.githubusercontent.com/78848729/107907163-edb8c500-6f78-11eb-9f07-2fc96bc2f6e1.PNG)
 
 #Structural Diagrams
 

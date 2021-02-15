@@ -2,7 +2,8 @@
 #include <calculator_operations.h>
 
 /* Modify these two lines according to the project */
-#include <calculator_operations.h>
+#include <calculator_conversions.h>
+#include<calculator_pin.h>
 #define PROJECT_NAME    "Calculator"
 
 /* Prototypes for all the test functions */
@@ -11,7 +12,8 @@ void test_add_testcase2(void);
 void test_subtract(void);
 void test_multiply(void);
 void test_divide(void);
-
+void test_correct_pin(void);
+void test_conversions(void);
 /* Required by the unity test framework */
 void setUp(){}
 /* Required by the unity test framework */
@@ -29,6 +31,8 @@ int main()
   RUN_TEST(test_subtract);
   RUN_TEST(test_multiply);
   RUN_TEST(test_divide);
+  RUN_TEST(test_correct_pin);
+  RUN_TEST(test_convert);
 
   /* Close the Unity Test Framework */
   return UNITY_END();
@@ -64,3 +68,21 @@ void test_divide(void) {
   /* Dummy fail*/
   TEST_ASSERT_EQUAL(3, divide(2, 2));
 }
+void test_get_pin(void) {
+  TEST_ASSERT_EQUAL(0, correct_pin(1234));
+  
+  /* Dummy fail*/
+  TEST_ASSERT_EQUAL(1234, correct_pin(7878));
+  /* Dummy fail*/
+   TEST_ASSERT_EQUAL(1, correct_pin(798678));
+}
+void test_convert(void) {
+  TEST_ASSERT_EQUAL(472.441, convert(1,12));
+  
+  /* Dummy fail*/
+  TEST_ASSERT_EQUAL(111, convert(1,!@));
+  /* Dummy fail*/
+  TEST_ASSERT_EQUAL(aa, convert(2,aaa));
+}
+
+

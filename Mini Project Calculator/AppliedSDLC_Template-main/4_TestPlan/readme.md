@@ -21,4 +21,4 @@
 |  L_05       |Area computation for Circle|Radius value in cm = 1|3.1428|3.1428|Initial boundary based|
 |  L_06       |Area computation for square|Side value in cm = 1|1|1|Initial boundary based    |
 |  L_07       |Perimeter computation for Square|Radius value in cm = 1|4|4|Initial boundary based    |
-|  L_08       |Perimeter computation for Rectangle|Radius value in cm = 1|4|4|Initial boundary based    |
+|  L_08       |Perimeter computation for Rectangle|length value in cm = 1 ; width value in cm =1|4|4|Initial boundary based    |

@@ -22,6 +22,7 @@ PS No. |  Name   |    Features    | Issuess Raised |Issues Resolved|No Test Case
 99003729 | Pushkar Antony  | Distance Conversion, Metre to inches and Metre to feet   | 2 | 2 | 3 |3     
 99003732 | Anushka Shivalli | Area and Perimeter, Compute area for Circle and Square and Compute perimeter for Square and rectangle | 
 99003730 | Arnav Kandpal  | Password Protection    | 4     | 4   |3   |3     
+99003728 | Mohammed Ijaz  | Arithematic operations    | 7     | 6   |6   |6
 
 ## Challenges Faced and How Was It Overcome
 

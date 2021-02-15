@@ -144,16 +144,10 @@ void calculator_menu(void)
             getchar();
             break;
         case DIVIDE:
-         int ret=divide(calculator_operand1, calculator_operand2);
-         if(ret==0){
-             printf("operand2 can not be zero:");
-         }
-         else{
             printf("\n\t%d / %d = %d\nEnter to continue", 
             calculator_operand1,
             calculator_operand2,
             divide(calculator_operand1, calculator_operand2));
-         }
             //__fpurge(stdin);
             getchar();
             break;
@@ -162,9 +156,11 @@ void calculator_menu(void)
             getchar();
             break; 
         case AREAPERIMETER:
-            
-            
+            areaperimeter();
+        case EXIT:
+            exit(0);
             break;
+            printf("\n\t---It should never come here---\n");
            
 
     }

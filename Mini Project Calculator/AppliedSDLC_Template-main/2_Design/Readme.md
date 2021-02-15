@@ -4,22 +4,22 @@
 
 #Behavioural Diagrams
 
-HLR Sequence diagram Distance Conversion[HighLevelStructuralDiagram](https://user-images.githubusercontent.com/78848560/107903132-66feea80-6f6e-11eb-9812-bb5eda44257a.PNG)
+HLR Sequence diagram Distance Conversion[HighLevelStructuralDiagram]![hlr sequence](https://user-images.githubusercontent.com/78848560/107903132-66feea80-6f6e-11eb-9812-bb5eda44257a.PNG)
 HLR Componenet diagram[HighLevelBehaviouralDiagram](https://github.com/99003732/Team2/blob/master/Mini%20Project/2_Architecture/Behaviour%20Diagram/HLR/HLR_ComponentDiagram.PNG)
 
 #Structural Diagrams
 
-HLR Deployment diagram PIN [HighLevelStructuralDiagram](https://user-images.githubusercontent.com/78853960/107882453-6b47eb00-6f0f-11eb-9bd2-6890a3b29f0b.png)
-HLR State diagram [HighLevelStructuralDiagram](https://user-images.githubusercontent.com/78853960/107883401-cb8d5b80-6f14-11eb-831e-b5964bcc8879.png)
+HLR Deployment diagram PIN [HighLevelStructuralDiagram]![hlr deployment](https://user-images.githubusercontent.com/78853960/107882453-6b47eb00-6f0f-11eb-9bd2-6890a3b29f0b.png)
+HLR State diagram [HighLevelStructuralDiagram]![llr state](https://user-images.githubusercontent.com/78853960/107883401-cb8d5b80-6f14-11eb-831e-b5964bcc8879.png)
 
 
 ## Low Level Design 
 
 LLR Sequence diagram [LowLevelStructureDiagram](https://github.com/99003732/Team2/blob/master/Mini%20Project/2_Architecture/Behaviour%20Diagram/LLR/AreaPerimeter_LLR_SequenceDiagram.jpg)
 LLR Timing diagram [LowLevelStructureDiagram](https://github.com/99003732/Team2/blob/master/Mini%20Project/2_Architecture/Behaviour%20Diagram/LLR/Blank%20diagram.png)
-LLR Activity diagram PIN[LowLevelStructureDiagram](https://user-images.githubusercontent.com/78853960/107883313-47d36f00-6f14-11eb-92aa-0f4c6721918e.png)
-LLR Interaction Overview [LowLevelStructureDiagram](https://user-images.githubusercontent.com/78848560/107903386-1d62cf80-6f6f-11eb-9e9d-53afd7180571.PNG)
+LLR Activity diagram PIN[LowLevelStructureDiagram]![llr activity](https://user-images.githubusercontent.com/78853960/107883313-47d36f00-6f14-11eb-92aa-0f4c6721918e.png)
+LLR Interaction Overview ![llr interaction overview] [LowLevelStructureDiagram](https://user-images.githubusercontent.com/78848560/107903386-1d62cf80-6f6f-11eb-9e9d-53afd7180571.PNG)
 LLR Component diagram [LowLevelStructureDiagram](https://github.com/99003732/Team2/blob/master/Mini%20Project/2_Architecture/Structural%20Diagram/LLR/AreaPerimeter_LLR_ComponentDiagram.jpg)
-LLR Class diagram PIN[LowLevelStructureDiagram](https://user-images.githubusercontent.com/78853960/107882542-ec06e700-6f0f-11eb-90ff-98996daf37e8.png)
+LLR Class diagram PIN[LowLevelStructureDiagram]![llr class](https://user-images.githubusercontent.com/78853960/107882542-ec06e700-6f0f-11eb-90ff-98996daf37e8.png)
 LLR Object diagram[LowLevelStructureDiagram](https://github.com/99003732/Team2/blob/master/Mini%20Project/2_Architecture/Structural%20Diagram/LLR/LLR%20obj.png)
-LLR Package diagram Distance Conversion[LowLevelStructureDiagram](https://user-images.githubusercontent.com/78848560/107903219-a9c0c280-6f6e-11eb-94a0-f0c88978b435.PNG)
+LLR Package diagram Distance Conversion[LowLevelStructureDiagram]![llr package](https://user-images.githubusercontent.com/78848560/107903219-a9c0c280-6f6e-11eb-94a0-f0c88978b435.PNG)

@@ -1,6 +1,7 @@
 #include <calculator_operations.h>
 #include <calculator_conversions.h>
 #include <calculator_pin.h>
+#include <calculator_AreaPerimeter.h>
 
 /* Status of the operation requested */
 #define VALID   (1)
@@ -17,7 +18,7 @@ int option_1;
 double metre_input;
 
 /* Valid operations */
-enum operations{ ADD=1, SUBTRACT, MULTIPLY, DIVIDE, CONVERT, EXIT };
+enum operations{ ADD=1, SUBTRACT, MULTIPLY, DIVIDE, CONVERT,AREAPERIMETER, EXIT };
 
 /* Display the menu of operations supported */
 void calculator_menu(void);
@@ -48,7 +49,7 @@ else
 void calculator_menu(void)
 {
     printf("\nAvailable Operations\n");
-    printf("\n1. Add\n2. Subtract\n3. Multiply\n4. Divide\n5. Convert\n6. Exit");
+    printf("\n1. Add\n2. Subtract\n3. Multiply\n4. Divide\n5. Convert\n6. AreaPerimeter \n7 .Exit");
     printf("\n\tEnter your choice\n");
    
      //__fpurge(stdin);
@@ -101,6 +102,11 @@ void calculator_menu(void)
         }
         else printf("Please press only 1 or 2");
 
+    }
+
+    else if(AREAPERIMETER == calculator_operation)
+    {
+        printf("\nYou have selected Area and Perimeter option");
     }
     else
     {
@@ -155,10 +161,12 @@ void calculator_menu(void)
             printf("\n\tThe conversion of %lf is %lf\nEnter to continue",metre_input, conversion(option_1, metre_input));
             getchar();
             break; 
-        case 6:
-            exit(0);
+        case AREAPERIMETER:
+            
+            
             break;
-            printf("\n\t---It should never come here---\n");
+           
+
     }
 }
 

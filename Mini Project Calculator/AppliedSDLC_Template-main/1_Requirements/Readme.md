@@ -15,7 +15,7 @@ Our calculator has a flip model making it more compact and handy. It has a PIN s
 ﻿
 |Strengths|  Weakness|
 |--|--|
-|- Geometrical Calculations|-Less No. of Functions 
+|- Area and Perimeter Calculations|-Less No. of Functions 
    |-User Friendly|-Average Processor|
    |-Portable and compact
    Secure||
@@ -51,6 +51,7 @@ By compensating the price of irrelevant features/functions for the convenience o
 ------|-------------|--------|--------
 99003729 | Distance Conversions | Done | Pushkar Antony
 99003730 |PIN Protection | Done | Arnav Kandpal
+99003732 |Area and Perimeter Calculation | Done | Anushka Shivalli
 ##  Low level Requirements: 
 -- ID | Description | Status | Owner |
 ------|-------------|--------|--------
@@ -58,3 +59,4 @@ By compensating the price of irrelevant features/functions for the convenience o
 99003729 | Metre to Feet conversion | Done | Pushkar Antony
 99003730 | Writing New PIN to permanent memory into a text file | Done | Arnav Kandpal
 99003730 | Reading Pin from saved file and validationg it with input pin| Done | Arnav Kandpal
+99003732 | Calculating area for circle and square and computation of perimeter for square and rectangle | Done | Anushka Shivalli

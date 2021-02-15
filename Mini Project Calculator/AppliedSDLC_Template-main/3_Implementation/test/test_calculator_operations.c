@@ -3,6 +3,7 @@
 
 /* Modify these two lines according to the project */
 #include <calculator_conversions.h>
+#include <calculator_AreaPerimeter.h>
 #include<calculator_pin.h>
 #define PROJECT_NAME    "Calculator"
 
@@ -14,6 +15,7 @@ void test_multiply(void);
 void test_divide(void);
 void test_correct_pin(void);
 void test_conversions(void);
+void test_AreaPerimeter(void);
 /* Required by the unity test framework */
 void setUp(){}
 /* Required by the unity test framework */
@@ -33,6 +35,7 @@ int main()
   RUN_TEST(test_divide);
   RUN_TEST(test_correct_pin);
   RUN_TEST(test_convert);
+  RUN_TEST(test_AreaPerimeter);
 
   /* Close the Unity Test Framework */
   return UNITY_END();
@@ -89,5 +92,46 @@ void test_convert(void) {
   /* Dummy fail*/
   TEST_ASSERT_EQUAL(aa, convert(2,aaa));
 }
-
+void test_AreaPerimeter(void)
+{
+   //for choose operation
+  TEST_ASSERT_EQUAL(1, Area(1)) 
+  TEST_ASSERT_EQUAL(2, Perimeter(2))
+    /*Dummy Test fail*/
+  TEST_ASSERT_EQUAL(r, Area(1))
+  TEST_ASSERT_EQUAL(u, Perimeter(2))
+    
+   //for choose shape under area function
+  TEST_ASSERT_EQUAL(1, Circle(1))
+  TSET_ASSERT_EQUAL(2, Square(2))
+   
+     /*Dummy Test fail*/
+  TEST_ASSERT_EQUAL(r, Circle(1))
+  TSET_ASSERT_EQUAL(u, Square(2))
+    
+   //for choose shape under perimeter function
+  TEST_ASSERT_EQUAL(1, square(1))
+  TSET_ASSERT_EQUAL(2, rectangle(2))
+    
+    /*Dummy Test fail*/
+  TEST_ASSERT_EQUAL(r, square(1))
+  TSET_ASSERT_EQUAL(o, rectangle(2))
+    
+   //for Area of circle and Square
+   TEST_ASSERT_EQUAL(3.142, AreaCircle(1))
+   TEST_ASSERT_EQUAL(1, AreaSquare(1))
+    
+    /*Dummy Test fail*/
+  TEST_ASSERT_EQUAL(0, AreaCircle(0))
+  TSET_ASSERT_EQUAL(0, AreaSquare(0))
+  
+   //for Perimeter of Square and Rectangle
+   TEST_ASSERT_EQUAL(0, PSquare(0))
+   TEST_ASSERT_EQUAL(0, PRectangle(0))
+    
+    /*Dummy test fail*/
+    TEST_ASSERT_EQUAL(0, PSquare(0))
+    TEST_ASSERT_EQUAL(0, PRectangle(0))
+}
+    
 

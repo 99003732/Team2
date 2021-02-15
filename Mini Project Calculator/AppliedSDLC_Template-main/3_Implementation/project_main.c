@@ -62,9 +62,9 @@ void calculator_menu(void)
     }
     else if(ADD == calculator_operation)
     {
-        printf("\n\tEnter the Number of operands you want to add \n");
+        printf("\n\tEnter your Numbers with space between them\n");
         //__fpurge(stdin);
-        scanf("%d ",no_of_op);
+        scanf("%d %d", &calculator_operand1, &calculator_operand2);
     }
     else if(SUBTRACT == calculator_operation)
     {
@@ -119,10 +119,12 @@ void calculator_menu(void)
     switch(calculator_operation)
     {
         case ADD:
-            printf(" %d\n", 
-            add(no_of_op));
+            printf("\n\t%d + %d = %d\nEnter to continue", 
+            calculator_operand1, 
+            calculator_operand2,
+            add(calculator_operand1, calculator_operand2));
             
-           // __fpurge(stdin);
+            // __fpurge(stdin);
             getchar();
             break;
         case SUBTRACT:
@@ -148,7 +150,10 @@ void calculator_menu(void)
             calculator_operand1,
             calculator_operand2,
             divide(calculator_operand1, calculator_operand2));
+<<<<<<< HEAD
          
+=======
+>>>>>>> c8c7ba6af9d33e4b935abafee95c324660b23b89
             //__fpurge(stdin);
             getchar();
             break;
@@ -157,9 +162,11 @@ void calculator_menu(void)
             getchar();
             break; 
         case AREAPERIMETER:
-            
-            
+            areaperimeter();
+        case EXIT:
+            exit(0);
             break;
+            printf("\n\t---It should never come here---\n");
            
 
     }

@@ -16,7 +16,7 @@
 * @param[in] operand2 
 * @return Result of operand1 + operand2
 */
-int add(int no_of_op);
+int add(int operand1, int operand2);
 
 /**
 *  subtracts the operand1, operand2 and returns the result

@@ -3,10 +3,11 @@
 A secure, Convenient and portable Non Programmable-Scientific Calculator.   
 
 ## Research
-![Description](Link to Pic)
+We reaserched on vatious types of calculators available in the market under the same brand "Casio". Ranging from normal calculators to Colour prgrammable scientific calculators we reasearched and have put a tabular columbn below.
 -- Content 
 ## Cost and Features
-![Description](Link to Pic)
+![Capture](https://user-images.githubusercontent.com/78848560/107905816-97965280-6f75-11eb-8b3b-b3e158bdf326.PNG)
+
 -- Content 
 ## Defining Our System
 Our calculator has a flip model making it more compact and handy. It has a PIN security by which it is made secure to random thefts.

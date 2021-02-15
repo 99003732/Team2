@@ -10,7 +10,7 @@ double Area_Circle(double radius)
         printf("\narea of circle calculated");
         return area_of_circle;
     }
-        printf("Enter valid input!");
+        printf("\nEnter valid input!");
 
 }
 

@@ -29,7 +29,8 @@ PS No. |  Name   |    Features    | Issuess Raised |Issues Resolved|No Test Case
 1. Issue in Making files- Solved by changing the path directory as I had made a earlier mistake while installing them. 
 2. Making the header and .c files had some errors- Solved by trial and error methods and searching the net.
 3. Reading and writing to permamnent memory, resolved by making a text file in local folder and saving the PIN to it
-4. ...
+4. Issue in creating make file. Found a solution by changing path.
+
 
 ## Learning Resources
 1. [markdownCheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)

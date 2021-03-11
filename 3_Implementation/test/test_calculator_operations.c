@@ -65,7 +65,7 @@ void test_subtract(void) {
 
 void test_multiply(void) {
   TEST_ASSERT_EQUAL(0, multiply(1, 0));
-  TEST_ASSERT_EQUAL(10, multiply(1, 10))
+  TEST_ASSERT_EQUAL(10, multiply(1, 10));
   /* Dummy fail*/
   TEST_ASSERT_EQUAL(2, multiply(2, 5));
 }
@@ -95,43 +95,43 @@ void test_convert(void) {
 void test_AreaPerimeter(void)
 {
    //for choose operation
-  TEST_ASSERT_EQUAL(1, Area(1)) 
-  TEST_ASSERT_EQUAL(2, Perimeter(2))
+  TEST_ASSERT_EQUAL(1, Area(1));
+  TEST_ASSERT_EQUAL(2, Perimeter(2));
     /*Dummy Test fail*/
-  TEST_ASSERT_EQUAL(r, Area(1))
-  TEST_ASSERT_EQUAL(u, Perimeter(2))
+  TEST_ASSERT_EQUAL(r, Area(1));
+  TEST_ASSERT_EQUAL(u, Perimeter(2));
     
    //for choose shape under area function
-  TEST_ASSERT_EQUAL(1, Circle(1))
-  TSET_ASSERT_EQUAL(2, Square(2))
+  TEST_ASSERT_EQUAL(1, Circle(1));
+  TSET_ASSERT_EQUAL(2, Square(2));
    
      /*Dummy Test fail*/
-  TEST_ASSERT_EQUAL(r, Circle(1))
-  TSET_ASSERT_EQUAL(u, Square(2))
+  TEST_ASSERT_EQUAL(r, Circle(1));
+  TSET_ASSERT_EQUAL(u, Square(2));
     
    //for choose shape under perimeter function
-  TEST_ASSERT_EQUAL(1, square(1))
-  TSET_ASSERT_EQUAL(2, rectangle(2))
+  TEST_ASSERT_EQUAL(1, square(1));
+  TSET_ASSERT_EQUAL(2, rectangle(2));
     
     /*Dummy Test fail*/
-  TEST_ASSERT_EQUAL(r, square(1))
-  TSET_ASSERT_EQUAL(o, rectangle(2))
+  TEST_ASSERT_EQUAL(r, square(1));
+  TSET_ASSERT_EQUAL(o, rectangle(2));
     
    //for Area of circle and Square
-   TEST_ASSERT_EQUAL(3.142, AreaCircle(1))
-   TEST_ASSERT_EQUAL(1, AreaSquare(1))
+   TEST_ASSERT_EQUAL(3.142, AreaCircle(1));
+   TEST_ASSERT_EQUAL(1, AreaSquare(1));
     
     /*Dummy Test fail*/
-  TEST_ASSERT_EQUAL(0, AreaCircle(0))
-  TSET_ASSERT_EQUAL(0, AreaSquare(0))
+  TEST_ASSERT_EQUAL(0, AreaCircle(0));
+  TSET_ASSERT_EQUAL(0, AreaSquare(0));
   
    //for Perimeter of Square and Rectangle
-   TEST_ASSERT_EQUAL(0, PSquare(0))
-   TEST_ASSERT_EQUAL(0, PRectangle(0))
+   TEST_ASSERT_EQUAL(0, PSquare(0));
+   TEST_ASSERT_EQUAL(0, PRectangle(0));
     
     /*Dummy test fail*/
-    TEST_ASSERT_EQUAL(0, PSquare(0))
-    TEST_ASSERT_EQUAL(0, PRectangle(0))
+    TEST_ASSERT_EQUAL(0, PSquare(0));
+    TEST_ASSERT_EQUAL(0, PRectangle(0));
 }
     
 

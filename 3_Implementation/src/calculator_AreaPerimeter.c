@@ -6,7 +6,7 @@ double Area_Circle(double radius)
 {
     double area_of_circle=0;
     {
-        area_of_circle=PI*pow(radius,2);
+        area_of_circle=PI*(radius*radius);
         printf("\narea of circle calculated");
         return area_of_circle;
     }

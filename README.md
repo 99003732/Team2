@@ -1,2 +1,1 @@
-## Team 2 from Thakshashila...
-Thanks for visiting here! :smiley:
+[![Code Quality - Static Code - Cppcheck](https://github.com/99003732/Team2/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/99003732/Team2/actions/workflows/cppcheck.yml)

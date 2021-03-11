@@ -1,5 +1,5 @@
 #include <calculator_pin.h>
- correct_pin(int pin)
+ int correct_pin(int pin)
 {
     int last_pin;
     last_pin=get_pin();

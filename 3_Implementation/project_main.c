@@ -150,10 +150,7 @@ void calculator_menu(void)
             calculator_operand1,
             calculator_operand2,
             divide(calculator_operand1, calculator_operand2));
-<<<<<<< HEAD
-         
-=======
->>>>>>> c8c7ba6af9d33e4b935abafee95c324660b23b89
+
             //__fpurge(stdin);
             getchar();
             break;

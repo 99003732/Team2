@@ -32,3 +32,18 @@ int modulus(int operand1)
     else
         return operand1;
 }
+
+int factorial(int operand1)
+{
+    int fact, iteration;
+    if (n < 0)
+        return 1;
+    else 
+    {
+        for (iteration = 1; iteration <= n; ++iteration)
+        {
+            fact *= iteration;
+        }
+        return fact;
+    }
+}

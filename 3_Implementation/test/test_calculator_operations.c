@@ -116,7 +116,13 @@ void test_factorial(void) {
 void test_convertions(void) 
 {
   TEST_ASSERT_EQUAL(472.441200, conversion(1,12));
-  
+  TEST_ASSERT_EQUAL(39.37008,conversion(2,12));
+  TEST_ASSERT_EQUAL(180.4462,conversion(2,55));
+  TEST_ASSERT_NOT_EQUAL(46867,conversion(1,56));
+  TEST_ASSERT_NOT_EQUAL(0,conversion(1,1));
+  TEST_ASSERT_NOT_EQUAL(486,conversion(1,486));
+  TEST_ASSERT_NOT_EQUAL(0.5556,conversion(2,8888.2));
+
   /* Dummy fail*/
   //TEST_ASSERT_EQUAL(111, conversion(1,2222));
   /* Dummy fail*/

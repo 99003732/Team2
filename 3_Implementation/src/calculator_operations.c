@@ -1,20 +1,20 @@
 #include <calculator_operations.h>
 
-int add(int operand1, int operand2)
+double add(double operand1, double operand2)
 {
     return operand1 + operand2;
 }
-int subtract(int operand1, int operand2)
+double subtract(double operand1, double operand2)
 {
     return operand1 - operand2;
 }
 
-int multiply(int operand1, int operand2)
+double multiply(double operand1, double operand2)
 {
     return operand1 * operand2;
 }
 
-int divide(int operand1, int operand2)
+double divide(double operand1, double operand2)
 {
     if(0 == operand2)
         return 0;
@@ -22,7 +22,7 @@ int divide(int operand1, int operand2)
         return operand1 / operand2;
 }
 
-int modulus(int operand1)
+double modulus(double operand1)
 {
     if(operand1<0)
     {
@@ -33,7 +33,7 @@ int modulus(int operand1)
         return operand1;
 }
 
-int factorial(int operand1)
+double factorial(double operand1)
 {
     int iteration;
     int fact =1;

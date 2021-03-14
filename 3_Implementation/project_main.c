@@ -16,21 +16,20 @@ int calculator_operand2 = 0;
 int no_of_op = 0;
 int option_1;
 double metre_input;
-    int choice_operation=0;
-    int choice_shape=0;
-    float area_of_circle;
-    double Acircle=0;
-    double Asquare=0;
-    double Psquare=0;
-    double Prectangle=0;
-    double radius=0;
-    double side=0;
-
-    double length=0;
-    double width=0;
+int choice_operation=0;
+int choice_shape=0;
+float area_of_circle;
+double Acircle=0;
+double Asquare=0;
+double Psquare=0;
+double Prectangle=0;
+double radius=0;
+double side=0;
+double length=0;
+double width=0;
 
 /* Valid operations */
-enum operations{ ADD=1, SUBTRACT, MULTIPLY, DIVIDE, CONVERT,AREAPERIMETER, EXIT };
+enum operations{ ADD=1, SUBTRACT, MULTIPLY, DIVIDE, FACTORIAL, MODULUS, CONVERT,AREAPERIMETER, EXIT };
 
 /* Display the menu of operations supported */
 void calculator_menu(void);
@@ -215,9 +214,8 @@ else
 void calculator_menu(void)
 {
     printf("\nAvailable Operations\n");
-    printf("\n1. Add\n2. Subtract\n3. Multiply\n4. Divide\n5. Convert\n6. AreaPerimeter \n7 .Exit");
+    printf("\n1. Add\n2. Subtract\n3. Multiply\n4. Divide\n5. Factorial\n6. Modulus\n7. Convert\n8. AreaPerimeter \n9 .Exit");
     printf("\n\tEnter your choice\n");
-   
      //__fpurge(stdin);
     scanf("%d", &calculator_operation);
 
@@ -230,25 +228,37 @@ void calculator_menu(void)
     {
         printf("\n\tEnter your Numbers with space between them\n");
         //__fpurge(stdin);
-        scanf("%d %d", &calculator_operand1, &calculator_operand2);
+        scanf("%lf %lf", &calculator_operand1, &calculator_operand2);
     }
     else if(SUBTRACT == calculator_operation)
     {
         printf("\n\tEnter your Numbers with space between them\n");
         //__fpurge(stdin);
-        scanf("%d %d", &calculator_operand1, &calculator_operand2);
+        scanf("%lf %lf", &calculator_operand1, &calculator_operand2);
     }
     else if(MULTIPLY == calculator_operation)
     {
         printf("\n\tEnter your Numbers with space between them\n");
         //__fpurge(stdin);
-        scanf("%d %d", &calculator_operand1, &calculator_operand2);
+        scanf("%lf %lf", &calculator_operand1, &calculator_operand2);
     }
     else if(DIVIDE == calculator_operation)
     {
         printf("\n\tEnter your Numbers with space between them\n");
         //__fpurge(stdin);
-        scanf("%d %d", &calculator_operand1, &calculator_operand2);
+        scanf("%lf %lf", &calculator_operand1, &calculator_operand2);
+    }
+    else if(FACTORIAL == calculator_operation)
+    {
+        printf("\n\tEnter your Number: \n");
+        //__fpurge(stdin);
+        scanf("%lf", &calculator_operand1);
+    }
+    else if(MODULUS == calculator_operation)
+    {
+        printf("\n\tEnter your Number: \n");
+        //__fpurge(stdin);
+        scanf("%lf", &calculator_operand1);
     }
     else if(CONVERT == calculator_operation)
     {
@@ -286,7 +296,7 @@ void calculator_menu(void)
     switch(calculator_operation)
     {
         case ADD:
-            printf("\n\t%d + %d = %d\nEnter to continue", 
+            printf("\n\t%lf + %lf = %lf\nEnter to continue", 
             calculator_operand1, 
             calculator_operand2,
             add(calculator_operand1, calculator_operand2));
@@ -295,7 +305,7 @@ void calculator_menu(void)
             getchar();
             break;
         case SUBTRACT:
-            printf("\n\t%d - %d = %d\nEnter to continue", 
+            printf("\n\t%lf - %lf = %lf\nEnter to continue", 
             calculator_operand1, 
             calculator_operand2,
             subtract(calculator_operand1, calculator_operand2));
@@ -304,7 +314,7 @@ void calculator_menu(void)
             getchar();
             break;
         case MULTIPLY:
-            printf("\n\t%d * %d = %d\nEnter to continue", 
+            printf("\n\t%lf * %lf = %lf\nEnter to continue", 
             calculator_operand1, 
             calculator_operand2,
             multiply(calculator_operand1, calculator_operand2));
@@ -313,10 +323,26 @@ void calculator_menu(void)
             getchar();
             break;
         case DIVIDE:
-            printf("\n\t%d / %d = %d\nEnter to continue", 
+            printf("\n\t%lf / %lf = %lf\nEnter to continue", 
             calculator_operand1,
             calculator_operand2,
             divide(calculator_operand1, calculator_operand2));
+
+            //__fpurge(stdin);
+            getchar();
+            break;
+        case FACTORIAL:
+            printf("\n\tThe factorial of %lf is %lf\nEnter to continue", 
+            calculator_operand1,
+            factorial(calculator_operand1));
+
+            //__fpurge(stdin);
+            getchar();
+            break;
+        case MODULUS:
+            printf("\n\tThe factorial of %lf is %lf\nEnter to continue", 
+            calculator_operand1,
+            factorial(calculator_operand1));
 
             //__fpurge(stdin);
             getchar();

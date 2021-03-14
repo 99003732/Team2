@@ -13,6 +13,8 @@ void test_add_testcase2(void);
 void test_subtract(void);
 void test_multiply(void); 
 void test_divide(void);
+void test_modulus(void);
+void test_factorial(void);
 void test_correct_pin(void);
 void test_convertions(void);
 void test_AreaPerimeter(void);

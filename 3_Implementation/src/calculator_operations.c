@@ -36,11 +36,11 @@ int modulus(int operand1)
 int factorial(int operand1)
 {
     int fact, iteration;
-    if (n < 0)
+    if (operand1 < 0)
         return 1;
     else 
     {
-        for (iteration = 1; iteration <= n; ++iteration)
+        for (iteration = 1; iteration <= operand1; ++iteration)
         {
             fact *= iteration;
         }

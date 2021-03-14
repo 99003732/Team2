@@ -21,3 +21,14 @@ int divide(int operand1, int operand2)
     else
         return operand1 / operand2;
 }
+
+int modulus(int operand1)
+{
+    if(operand1<0)
+    {
+        operand1 = operand1*-1;
+        return operand1;
+    }
+    else
+        return operand1;
+}

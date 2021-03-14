@@ -86,13 +86,13 @@ void test_modulus(void) {
   //TEST_ASSERT_EQUAL(3, divide(2, 2));
 }
 
-void test_factorial(void) {
+/*void test_factorial(void) {
   TEST_ASSERT_EQUAL(2, factorial(2));
   TEST_ASSERT_EQUAL(0, modulus(-1));
   /* Dummy fail*/
   //TEST_ASSERT_EQUAL(3, divide(2, 2));
 }
-
+*/
 //void test_correct_pin(void) {
   //TEST_ASSERT_EQUAL(0, correct_pin(1234));
   

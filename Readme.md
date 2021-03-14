@@ -1,6 +1,6 @@
 # SDLC Activity Based Learning
 
-Visit [Pages for Report -optional](using github.io option)
+
 
 Build | Cppcheck | Unity | [Git Inspector](using github.io option)
 ------|----------|-------|--------------

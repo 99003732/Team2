@@ -13,8 +13,8 @@ void test_add_testcase2(void);
 void test_subtract(void);
 void test_multiply(void); 
 void test_divide(void);
-void test_modulus(void);
-void test_factorial(void);
+//void test_modulus(void);
+//void test_factorial(void);
 void test_correct_pin(void);
 void test_convertions(void);
 void test_AreaPerimeter(void);
@@ -35,8 +35,8 @@ int main()
   RUN_TEST(test_subtract);
   RUN_TEST(test_multiply);
   RUN_TEST(test_divide);
-  RUN_TEST(test_modulus);
-  RUN_TEST(test_factorial);
+ // RUN_TEST(test_modulus);
+  //RUN_TEST(test_factorial);
   //RUN_TEST(test_correct_pin);
   RUN_TEST(test_convertions);
   RUN_TEST(test_AreaPerimeter);
@@ -81,9 +81,9 @@ void test_divide(void) {
   //TEST_ASSERT_EQUAL(3, divide(2, 2));
 }
 
-void test_modulus(void) {
+/*void test_modulus(void) {
   TEST_ASSERT_EQUAL(1, modulus(-1));
-  TEST_ASSERT_EQUAL(9, modulus(9));
+  TEST_ASSERT_EQUAL(9, modulus(9));*/
   /* Dummy fail*/
   //TEST_ASSERT_EQUAL(3, divide(2, 2));
 }

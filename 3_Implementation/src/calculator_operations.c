@@ -35,7 +35,8 @@ int modulus(int operand1)
 
 int factorial(int operand1)
 {
-    int fact, iteration;
+    int iteration;
+    int fact =1;
     if (operand1 < 0)
         return 1;
     else 

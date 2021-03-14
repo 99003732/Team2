@@ -5,7 +5,7 @@
 #include <calculator_conversions.h>
 #include <calculator_AreaPerimeter.h>
 #include <calculator_pin.h>
-#define PROJECT_NAME    "Calculator"
+#define PROJECT_NAME "Calculator"
 
 /* Prototypes for all the test functions */
 void test_add(void);
@@ -16,6 +16,8 @@ void test_divide(void);
 void test_correct_pin(void);
 void test_convertions(void);
 void test_AreaPerimeter(void);
+void test_modulus(void);
+
 /* Required by the unity test framework */
 void setUp(){}
 /* Required by the unity test framework */
@@ -33,6 +35,7 @@ int main()
   RUN_TEST(test_subtract);
   RUN_TEST(test_multiply);
   RUN_TEST(test_divide);
+  RUN_TEST(test_modulus);
   //RUN_TEST(test_correct_pin);
   RUN_TEST(test_convertions);
   RUN_TEST(test_AreaPerimeter);
@@ -47,6 +50,7 @@ void test_add(void) {
   TEST_ASSERT_EQUAL(-10, add(10, -20));
   TEST_ASSERT_EQUAL(-100, add(10, -110));
 }
+
 void test_add_testcase2(void) {
  
   /* Dummy fail*/
@@ -77,7 +81,11 @@ void test_divide(void) {
   //TEST_ASSERT_EQUAL(3, divide(2, 2));
 }
 
-
+void test_modulus(void) {
+  TEST_ASSERT_EQUAL(1, modulus(-1));
+ // TEST_ASSERT_EQUAL(, add(10, -20));
+  //TEST_ASSERT_EQUAL(-100, add(10, -110));
+}
   /* Dummy fail*/
   //TEST_ASSERT_EQUAL(3, divide(2, 2));
 

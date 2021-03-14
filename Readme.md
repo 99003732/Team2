@@ -18,7 +18,7 @@ Folder             | Description
 
 PS No. |  Name   |    Features    | Issuess Raised |Issues Resolved|No Test Cases|Test Case Pass
 -------|---------|----------------|----------------|---------------|-------------|--------------
-99003729 | Pushkar Antony  | Distance Conversion, Metre to inches and Metre to feet   | 3 | 3 | 3 |3     
+99003729 | Pushkar Antony  | Distance Conversion, Metre to inches and Metre to feet   | 3 | 8 | 7 |7     
 99003732 | Anushka Shivalli | Area and Perimeter, Compute area for Circle and Square and Compute perimeter for Square and rectangle | 2 | 3 | 10 | 10 |
 99003730 | Arnav Kandpal  | Password Protection    | 4     | 4   |3   |3     
 99003728 | Mohammed Ijaz  | Arithematic operations    | 7     | 6   |6   |6
@@ -39,9 +39,9 @@ PS No. |  Name   |    Features    | Issuess Raised |Issues Resolved|No Test Case
 
 1. Issue in Making files- Solved by changing the path directory as I had made a earlier mistake while installing them. 
 2. Making the header and .c files had some errors- Solved by trial and error methods and searching the net.
-3. Reading and writing to permamnent memory, resolved by making a text file in local folder and saving the PIN to it
+3. Reading and writing to permamnent memory, resolved by making a text file in local folder and saving the PIN to it.
 4. Valgrind check issue - Solved by running the features individually.
-5. unity test issue - Solved by comparing and referring thr given repository with our repository files.
+5. Unity test issue - Solved by comparing and referring through given repository with our repository files.
 
 ## Learning Resources
 1. [markdownCheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)

@@ -6,7 +6,7 @@ Build | Cppcheck | Unity | [Git Inspector](using github.io option)
 ------|----------|-------|--------------
 [![C/C++ CI](https://github.com/99003732/Team2/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/99003732/Team2/actions/workflows/c-cpp.yml) | [![Static Cppcheck](https://github.com/99003732/Team2/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/99003732/Team2/actions/workflows/cppcheck.yml) [![Dynamic Valgrind](https://github.com/99003732/Team2/actions/workflows/CodeQuality_Dynamic.yml/badge.svg)](https://github.com/99003732/Team2/actions/workflows/CodeQuality_Dynamic.yml)| [![Unity - Unit Testing](https://github.com/99003732/Team2/actions/workflows/unity.yml/badge.svg)](https://99003732/Team2/sdlc_new/actions/workflows/unity.yml)| [![Git Inspector](https://github.com/99003732/Team2/actions/workflows/gitinspector.yml/badge.svg)](https://github.com/99003732/Team2/actions/workflows/gitinspector.yml)
 
-## NOTE: If testing out code manually in VSCode, when running calculator.exe, it will ask for "Enter pin". The default pin is "1234". Or, if you want to set your new pin, please delete the existing "PIN.txt" file inside "3_Implementation-> build" folder.
+## NOTE: If testing code manually in VSCode, when running calculator.exe, it will ask for "Enter pin". The default pin is "1234". Or, if you want to set your new pin, please delete the existing "PIN.txt" file inside "3_Implementation-> build" folder.
 
 ## Folder Structure
 Folder             | Description

@@ -17,6 +17,7 @@ void test_correct_pin(void);
 void test_convertions(void);
 void test_AreaPerimeter(void);
 void test_modulus(void);
+void test_factorial(void);
 
 /* Required by the unity test framework */
 void setUp(){}
@@ -36,6 +37,7 @@ int main()
   RUN_TEST(test_multiply);
   RUN_TEST(test_divide);
   RUN_TEST(test_modulus);
+  RUN_TEST(test_factorial);
   //RUN_TEST(test_correct_pin);
   RUN_TEST(test_convertions);
   RUN_TEST(test_AreaPerimeter);
@@ -83,6 +85,14 @@ void test_divide(void) {
 
 void test_modulus(void) {
   TEST_ASSERT_EQUAL(1, modulus(-1));
+  TEST_ASSERT_EQUAL(1, modulus(1));
+ // TEST_ASSERT_EQUAL(, add(10, -20));
+  //TEST_ASSERT_EQUAL(-100, add(10, -110));
+}
+
+
+void test_factorial(void) {
+  TEST_ASSERT_EQUAL(2, factorial(2));
  // TEST_ASSERT_EQUAL(, add(10, -20));
   //TEST_ASSERT_EQUAL(-100, add(10, -110));
 }
@@ -120,7 +130,7 @@ void test_AreaPerimeter(void)
   TEST_ASSERT_EQUAL(0, Perimeter_Square(0));
   TEST_ASSERT_EQUAL(0, Area_Square(-1));
   
- // TEST_ASSERT_EQUAL(152399025, Perimeter_Square(12345));
+  //TEST_ASSERT_EQUAL(152399025, Perimeter_Square(12345));
   //TEST_ASSERT_EQUAL(1, Perimeter_Square(1.0));
   //TEST_ASSERT_EQUAL(6.6564, Perimeter_Square(2.58));
  // TEST_ASSERT_EQUAL(0, Perimeter_Rectangle(0,0));

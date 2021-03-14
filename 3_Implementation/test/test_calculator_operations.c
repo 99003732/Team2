@@ -127,20 +127,22 @@ void test_AreaPerimeter(void)
 {
    //for choose operation
   TEST_ASSERT_EQUAL(3.142000, Area_Circle(1));
-  TEST_ASSERT_EQUAL(0, Perimeter_Square(0));
-  TEST_ASSERT_EQUAL(0, Area_Square(-1));
+  TEST_ASSERT_EQUAL(0, Area_Circle(-1));
   
-  //TEST_ASSERT_EQUAL(152399025, Perimeter_Square(12345));
-  //TEST_ASSERT_EQUAL(1, Perimeter_Square(1.0));
-  //TEST_ASSERT_EQUAL(6.6564, Perimeter_Square(2.58));
- // TEST_ASSERT_EQUAL(0, Perimeter_Rectangle(0,0));
- // TEST_ASSERT_EQUAL(12, Perimeter_Rectangle(2,4));
- // TEST_ASSERT_EQUAL(0, Perimeter_Rectangle(-1,0));
-  //TEST_ASSERT_EQUAL(0, Perimeter_Rectangle(-1,-2));
-  //TEST_ASSERT_EQUAL(3.14, Area_Circle(1));
-  //TEST_ASSERT_EQUAL(3.14, Area_Circle(1));
-  //TEST_ASSERT_EQUAL(3.14, Area_Circle(1));
-  //TEST_ASSERT_EQUAL(3.14, Area_Circle(1));
+  TEST_ASSERT_EQUAL(152399025, Perimeter_Square(12345));
+  TEST_ASSERT_EQUAL(6.6564, Perimeter_Square(2.58));
+  TEST_ASSERT_EQUAL(0, Perimeter_Square(0));
+  
+  TEST_ASSERT_EQUAL(0, Area_Square(-1));
+  TEST_ASSERT_EQUAL(0, Area_Square(0));
+  TEST_ASSERT_EQUAL(4, Area_Square(2));
+ 
+  
+  TEST_ASSERT_EQUAL(0, Perimeter_Rectangle(0,0));
+  TEST_ASSERT_EQUAL(12, Perimeter_Rectangle(2,4));
+  TEST_ASSERT_EQUAL(0, Perimeter_Rectangle(-1,0));
+  TEST_ASSERT_EQUAL(0, Perimeter_Rectangle(-1,-2));
+  
     /*Dummy Test fail*/
   //TEST_ASSERT_EQUAL("r", Area_Circle(1));
   //TEST_ASSERT_EQUAL("u", Perimeter_Rectangle(2,468));

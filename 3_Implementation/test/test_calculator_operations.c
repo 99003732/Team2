@@ -148,10 +148,10 @@ void test_AreaPerimeter(void)
   TEST_ASSERT_EQUAL(4, Area_Square(2));
  
   
-  //TEST_ASSERT_EQUAL(0, Perimeter_Rectangle(0,0));
-  //TEST_ASSERT_EQUAL(12, Perimeter_Rectangle(2,4));
-  //TEST_ASSERT_EQUAL(0, Perimeter_Rectangle(-1,0));
- // TEST_ASSERT_EQUAL(0, Perimeter_Rectangle(-1,-2));
+  TEST_ASSERT_EQUAL(0, Perimeter_Rectangle(0,0));
+  TEST_ASSERT_EQUAL(12, Perimeter_Rectangle(2,4));
+  TEST_ASSERT_EQUAL(0, Perimeter_Rectangle(-1,0));
+  TEST_ASSERT_EQUAL(0, Perimeter_Rectangle(-1,-2));
   
     /*Dummy Test fail*/
   //TEST_ASSERT_EQUAL("r", Area_Circle(1));
